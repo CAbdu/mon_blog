@@ -3,3 +3,45 @@
 // @import "dashboard";
 // @import "profile";
 // @import "map";
+.banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.banner_content{
+  // position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner_name{
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  // margin-top: 20%;
+  h1{
+  // font-family:  ;
+  // font-weight: 750;
+  letter-spacing: 2px;
+  font-size: 61px;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: lighter;
+  }
+}
+
+.arrow-img{
+  width: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 48%;
+
+}
+
+.arrow-img:hover {
+    width: 52px;
+
+  }
